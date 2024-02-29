@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CV Jorge Gomez</title>
+</head>
+
+<body class="contenedor">  
+  <header>
+      <div class="div-nav">
+          <img src="imagenes/JIGR.jpg" alt="Foto_Personal">
+          <nav class="nav" >
+              <ul>
+                  <li>
+                    <a href="HojaVida.html">Personal inf</a>
+                  </li>
+                  <li>
+                    <a href="WorkExperiences.html">Work exp</a>
+                  </li>
+                  <li>
+                    <a href="PersonalReferences.html">Personal ref</a>
+                  </li>
+                  <li>
+                    <a href="FamilyReferences.html">Family ref</a>
+                  </li>
+                  <li>
+                    <a href="Education.html">Education</a>
+                  </li>
+              </ul>
+          </nav>
+          <div class="div-main3">         
+            <label for="color-picker">Selecciona un color:</label>
+            <input type="color" id="color-picker" name="color-picker">
+          </div>
+      </div>
+  </header>
+
+  <div class="super-div">
+    <main>
+    <div class="div-main1">
+      <section>
+        <article>
+            <h2>PERSONAL REFERENCES.</h2>
+            <div>
+              <div class="accordion">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                  <h3><b>Pablo Arturo Beltran.</b></h3>
+                </div>
+                <div class="accordion-body">
+                  <ul>
+                    <li>Software Developer</li>
+                    <li>English Professional Fluency C1</i>
+                    <li>Armenia-Quindio</i>
+                    <li>Cel:*******487</i>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                  <h3><b>Leonardo Rodriguez.</b></h3>
+                </div>
+                <div class="accordion-body">
+                  <ul>
+                    <li>Contador Público</i>
+                    <li>Especialista en Revisoria Fiscal</i>
+                    <li>Bogota-Colombia</i>
+                    <li>Cel:*******210</i>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion">
+                <div class="accordion-header" onclick="toggleAccordion(this)">
+                  <h3><b>Juan Diego Muñoz.</b></h3>
+                </div>
+                <div class="accordion-body">
+                  <ul>
+                    <li>Preparador Fisico</i>
+                    <li>Medellin-Antioquia</i>
+                    <li>Cel:*******235</i>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </article>
+      </section>
+    </div>
+    <div>
+      <aside>
+        <div class="div-main2">
+          <h2>PERSONAL INFORMATION.</h2>
+          <ul>
+            <li>Name: Jorge Ivan Gomez Restrepo</li>
+            <li>Age: 38 años</li>
+            <li>Email: joimole1008@email.com</li>
+            <li>Cel: 3196320925</li>
+            <li>Address: Calle 47b # 93a-25, Medellin, Colombia</li>
+            <li>Linkedin: <a href="https://www.linkedin.com/in/jorgeivan-gomez/">in/jorgeivan-gomez</a></li>
+          </ul>
+        </div>
+        <br>
+      </aside>
+    </div>
+    </main>
+  </div>
+  <footer>
+    <p>&copy Copyright Jorge Gomez - 2023</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
